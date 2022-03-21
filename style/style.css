@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.header-style{
+    background-color: #ABBFCF;
+}
+.header-style img{
+    width: 8rem;
+    height: auto;
+}
+.header-style h1{
+    font-size: 80%;
+    text-align:right;
+}
+.carousel-style{
+    background-color: #58768f;
+    padding: 1rem;
+}
+.tituloArticulo h2{
+ font-size: 100%;
+}
+.imagenesArticulo img{
+    height: auto;
+    width: 30rem;
+    justify-items: left;
+    padding: 1rem;
+}
+.footer {
+    text-align: center;
+    background-color: #ABBFCF;
+    font-size: 70%;
+    margin: 0;
+}
+.footer img {
+    height: 2vh;
+    width: auto;
+}
+.formularioCentrado{
+    padding: 3vh;
+}
+.botones{
+margin-top: 2rem;
+}
