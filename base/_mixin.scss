@@ -1,0 +1,4 @@
+@mixin titulo ($size,$margin){
+    font-size: $size;
+    padding: $margin;
+}

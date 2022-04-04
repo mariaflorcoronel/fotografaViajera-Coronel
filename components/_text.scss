@@ -1,0 +1,12 @@
+@import '../base/extends';
+@import '../base/mixin';
+.articulo p{
+    @extend %disposicion-texto;
+}
+.articulo img {
+    height: 350px;
+    @extend %disposicion-texto;
+}
+.articulo h2{
+    @include titulo (90%, 10px)
+}
