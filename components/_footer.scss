@@ -1,0 +1,13 @@
+@import '../base/variables';
+footer{
+    text-align: center;
+    background-color: $bg-claro;
+    margin: 0;
+    p{
+        font-size: 70%;
+    }
+    img{
+        height: 2vh;
+        width: auto;
+    }
+}

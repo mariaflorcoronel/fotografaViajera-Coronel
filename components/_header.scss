@@ -1,0 +1,12 @@
+@import '../base/maps';
+header{
+    background-color: map-get($header, bg-header);
+    img{
+        width: 8rem;
+        height: auto;
+    }
+    h1{
+        font-size: 80%;
+        text-align:right;
+    }
+}
