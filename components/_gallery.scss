@@ -1,17 +1,19 @@
 @import '../base/variables';
 section {
+    .gallery-container{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         padding: 1rem;
         gap: 1rem;
         background-color: $bg-oscuro;
+    }
         .gallery-item{
             position: relative;
             overflow: hidden;
         }
         .gallery-item:hover img {
             transform:scale(1.2);
-            transition: 1s;
+            transition: 3s;
         }
         .gallery-item p{
             position: absolute;

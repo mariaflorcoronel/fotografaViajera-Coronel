@@ -7,6 +7,12 @@
     height: 350px;
     @extend %disposicion-texto;
 }
-.articulo h2{
+ h2{
     @include titulo (90%, 10px)
+}
+label {
+    font-size: 80%;
+}
+select option{
+    font-size: 90%;
 }

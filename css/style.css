@@ -62,9 +62,17 @@ main {
   height: 350px;
 }
 
-.articulo h2 {
+h2 {
   font-size: 90%;
   padding: 10px;
+}
+
+label {
+  font-size: 80%;
+}
+
+select option {
+  font-size: 90%;
 }
 
 section .gallery-container {
@@ -72,6 +80,7 @@ section .gallery-container {
   grid-template-columns: repeat(3, 1fr);
   padding: 1rem;
   gap: 1rem;
+  background-color: #58768f;
 }
 section .gallery-item {
   position: relative;
@@ -79,7 +88,7 @@ section .gallery-item {
 }
 section .gallery-item:hover img {
   transform: scale(1.2);
-  transition: 1s;
+  transition: 3s;
 }
 section .gallery-item p {
   position: absolute;
