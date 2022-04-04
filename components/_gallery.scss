@@ -1,0 +1,43 @@
+@import '../base/variables';
+section {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 1rem;
+        gap: 1rem;
+        background-color: $bg-oscuro;
+        .gallery-item{
+            position: relative;
+            overflow: hidden;
+        }
+        .gallery-item:hover img {
+            transform:scale(1.2);
+            transition: 1s;
+        }
+        .gallery-item p{
+            position: absolute;
+            bottom: 0;
+            color: white;
+            font-size: 0.5rem;
+            margin: 0;
+            background: linear-gradient(rgba(255, 255, 255, 0), rgb(51, 51, 51, 1));
+            width: 100%;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .gallery-item:nth-child(1){
+            grid-column-start: span 3;
+        }
+        .gallery-item:nth-child(4){
+            grid-row-start: span 2;
+        }
+        .gallery-item:nth-child(10){
+            grid-column-start: span 2;
+        }
+        .gallery-item:nth-child(6){
+            grid-column-start: span 2;
+            grid-row-start: span2;
+        }
+}
