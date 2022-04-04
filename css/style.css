@@ -1,0 +1,26 @@
+header {
+  background-color: #ABBFCF;
+}
+header img {
+  width: 8rem;
+  height: auto;
+}
+header h1 {
+  font-size: 80%;
+  text-align: right;
+}
+
+footer {
+  text-align: center;
+  background-color: #ABBFCF;
+  margin: 0;
+}
+footer p {
+  font-size: 70%;
+}
+footer img {
+  height: 2vh;
+  width: auto;
+}
+
+/*# sourceMappingURL=style.css.map */
