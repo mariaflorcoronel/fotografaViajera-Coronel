@@ -75,6 +75,12 @@ select option {
   font-size: 90%;
 }
 
+.dibujos img {
+  display: flex;
+  justify-content: center;
+  height: 30%;
+}
+
 section .gallery-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
